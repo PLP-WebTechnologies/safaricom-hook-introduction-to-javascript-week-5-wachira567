@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Dynamic content styles */
+#dynamic-content {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* List styles */
+ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+ul li {
+    background: #e7f3fe;
+    border: 1px solid #b3d7ff;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+}
